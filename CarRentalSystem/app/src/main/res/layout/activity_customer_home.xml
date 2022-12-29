@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    tools:context=".CustomerHome">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="15dp"
+        android:text="Bookings"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/pack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="15dp"
+        android:text="Packages"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/packages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="15dp"
+        android:text="Perchased packages"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/addpackages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="15dp"
+        android:text="Upcoming rentals"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/drivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="15dp"
+        android:text="Profile"
+        android:textColor="#000000" />
+
+</LinearLayout>
